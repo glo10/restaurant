@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/app.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="page-header">
+        <h1>Bienvenue au McGlody</h1>
+        <small>Vous pouvez composer votre menu parmis la liste de choix suivante</small>
+      </header>
+      <main class="main-box">
+          <section>
+            <h2>Composer votre plat</h2>
+            <div id="menu">
+              <label for="cvff">Entrée</label>
+              <select name="abc" id="abc">
+                <option value="a">aaa</option>
+                <option value="b">bbb</option>
+                <option value="c">ccc</option>
+              </select>
+              <button class="btn btn-success"><span class="glyphicon glyphicon-plus"></span></button>
+              <select name="def" id="def">
+                <option value="d">ddd</option>
+                <option value="e">eee</option>
+                <option value="f">fff</option>
+              </select>
+              <button class="btn btn-success"><span class="glyphicon glyphicon-plus"></span></button>
+              <label for="gss">Dessert</label>
+              <select name="hij" id="hij">
+                <option value="h">h</option>
+                <option value="i">i</option>
+                <option value="j">j</option>
+              </select>
+              <button class="btn btn-success"><span class="glyphicon glyphicon-plus"></span></button>
+              <label for="dssde">Boisson</label>
+              <select name="klm" id="klm">
+                <option value="k">kkk</option>
+                <option value="l">lll</option>
+                <option value="m">mmm</option>
+              </select>
+              <button class="btn btn-success"><span class="glyphicon glyphicon-plus"></span></button>
+            </div>
+          </section>
+          <section>
+            <h2>Votre panier</h2>
+            <div id="choice">
+              <h3> Votre choix : </h3>
+              <ul id="choice-list"></ul>
+            </div>
+          </section>
+      </main>
+    </div>
+    <script src="static/js/app.js"></script>
+  </body>
+</html>
