@@ -16,41 +16,18 @@
       <main class="main-box">
           <section>
             <h2>Composer votre plat</h2>
-            <div id="menu">
-              <label for="cvff">Entrée</label>
-              <select name="abc" id="abc">
-                <option value="a">aaa</option>
-                <option value="b">bbb</option>
-                <option value="c">ccc</option>
-              </select>
-              <button class="btn btn-success"><span class="glyphicon glyphicon-plus"></span></button>
-              <select name="def" id="def">
-                <option value="d">ddd</option>
-                <option value="e">eee</option>
-                <option value="f">fff</option>
-              </select>
-              <button class="btn btn-success"><span class="glyphicon glyphicon-plus"></span></button>
-              <label for="gss">Dessert</label>
-              <select name="hij" id="hij">
-                <option value="h">h</option>
-                <option value="i">i</option>
-                <option value="j">j</option>
-              </select>
-              <button class="btn btn-success"><span class="glyphicon glyphicon-plus"></span></button>
-              <label for="dssde">Boisson</label>
-              <select name="klm" id="klm">
-                <option value="k">kkk</option>
-                <option value="l">lll</option>
-                <option value="m">mmm</option>
-              </select>
-              <button class="btn btn-success"><span class="glyphicon glyphicon-plus"></span></button>
-            </div>
+            <div id="menu"></div>
           </section>
           <section>
             <h2>Votre panier</h2>
             <div id="choice">
               <h3> Votre choix : </h3>
+              <p id="msg"></p>
               <ul id="choice-list"></ul>
+              <div>
+                <p class="alert alert-info">Total de vos achats : <span id="total"></span></p>
+                <button class="col-xs-12 btn btn-success" id="book">Commander</button>
+              </div>
             </div>
           </section>
       </main>
